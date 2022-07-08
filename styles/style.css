@@ -1,0 +1,26 @@
+@import "header.css";
+@import "intro.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-size: 1rem;
+  font-family: 'Public Sans', sans-serif;
+  color: #9698A6;
+}
+
+.btn {
+  font-weight: 300;
+  color: white;
+  padding: 15px 30px;
+  background: linear-gradient(90deg, rgba(49, 211, 92, 1) 0%, rgba(43, 183, 218, 1) 100%);
+  border-radius: 50px;
+  margin-right: 20px;
+  font-weight: 700;
+}
+
+.btn:hover {
+  background: linear-gradient(90deg, rgba(49, 211, 92, 0.5) 0%, rgba(43, 183, 218, 0.5) 100%);
+}
