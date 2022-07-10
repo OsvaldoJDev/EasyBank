@@ -1,0 +1,46 @@
+.intro {
+  padding-left: 20px;
+  background-color: #FAFAFA;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-image: url(../img/bg-intro-desktop.svg);
+  background-size: cover;
+  background-position: 400px -200px;
+  background-repeat: no-repeat;
+}
+
+
+.intro__left {
+  align-self: center;
+  max-width: 420px;
+}
+
+.intro__left h1 {
+  font-weight: 500;
+  font-size: 3rem;
+  color: #2D314D;
+}
+
+.intro__left p {
+  margin: 20px 0 30px 0;
+}
+
+.intro__left a {
+  padding: 5px 20px;
+}
+
+.intro__right {
+  justify-self: right;
+
+}
+
+.intro__right {
+  background-image: url(../img/image-mockups.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top left 100px;
+  height: 820px;
+  width: 100%;
+  transform: translate(0px, -100px);
+  margin-bottom: -250px;
+}

@@ -1,7 +1,13 @@
+header {
+  position: relative;
+  z-index: 2;
+  background-color: white;
+}
+
 header nav {
   display: flex;
   justify-content: space-between;
-  padding: 20px 20px;
+  padding: 10px 20px;
   align-items: center;
 }
 
@@ -13,7 +19,7 @@ nav ul {
 
 ul li a {
   color: #2D314D;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 ul li a:hover {

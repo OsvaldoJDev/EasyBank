@@ -11,6 +11,11 @@
   color: #9698A6;
 }
 
+body {
+  position: relative;
+  z-index: -1;
+}
+
 .btn {
   font-weight: 300;
   color: white;
