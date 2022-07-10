@@ -1,0 +1,55 @@
+.bank-info {
+  background-color: #F4F5F7;
+  padding: 100px 20px;
+}
+
+.bank-info h1 {
+  font-weight: 500;
+  font-size: 2rem;
+  color: #2D314D;
+}
+
+.bank-info>p {
+  margin: 20px 0 30px 0;
+  max-width: 500px;
+}
+
+.bank-info__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.grid__item span {
+  font-size: 1.7rem;
+  color: #2D314D;
+}
+
+.grid__item span::before {
+  content: "";
+  display: block;
+  margin: 50px 0px 20px 0px;
+  width: 72px;
+  height: 72px;
+}
+
+.item1 span::before {
+  background-image: url(../img/icon-online.svg);
+}
+
+.item2 span::before {
+  background-image: url(../img/icon-budgeting.svg);
+}
+
+.item3 span::before {
+  background-image: url(../img/icon-onboarding.svg);
+}
+
+.item4 span::before {
+  background-image: url(../img/icon-api.svg);
+}
+
+.grid__item p {
+  margin-top: 20px;
+  max-width: 300px;
+}

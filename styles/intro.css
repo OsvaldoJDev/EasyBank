@@ -30,11 +30,6 @@
 }
 
 .intro__right {
-  justify-self: right;
-
-}
-
-.intro__right {
   background-image: url(../img/image-mockups.png);
   background-repeat: no-repeat;
   background-size: contain;
