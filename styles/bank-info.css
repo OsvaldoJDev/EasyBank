@@ -20,12 +20,12 @@
   gap: 30px;
 }
 
-.grid__item span {
+.bank-info .grid__item span {
   font-size: 1.7rem;
   color: #2D314D;
 }
 
-.grid__item span::before {
+.bank-info .grid__item span::before {
   content: "";
   display: block;
   margin: 50px 0px 20px 0px;
@@ -52,4 +52,39 @@
 .grid__item p {
   margin-top: 20px;
   max-width: 300px;
+}
+
+@media (max-width:1000px) {
+  .bank-info {
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  .bank-info__grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .bank-info>p {
+    max-width: 100%;
+  }
+
+  .bank-info__grid p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .grid__item span::before {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width:530px) {
+  .bank-info__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .bank-info__grid span {
+    font-size: 1.5rem;
+  }
 }

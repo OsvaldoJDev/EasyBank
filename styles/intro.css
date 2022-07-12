@@ -55,7 +55,7 @@
   }
 
   .intro__right {
-    padding-right: 20px;
+    padding-right: 0px;
     background-position: right;
   }
 }
@@ -94,11 +94,14 @@
     margin-top: -100px;
     margin-left: auto;
     margin-right: auto;
-    /* transform: translate(0px, -100px); */
   }
 }
 
-@media (max-width:400px) {
+@media (max-width:500px) {
+  .intro__left {
+    padding-bottom: 50px;
+  }
+
   .intro__left h1 {
     margin-top: 10px;
     font-size: 2rem;

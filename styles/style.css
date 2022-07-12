@@ -1,6 +1,7 @@
 @import "header.css";
 @import "intro.css";
 @import "bank-info.css";
+@import "articles.css";
 
 * {
   margin: 0;
