@@ -50,3 +50,25 @@
 .article__grid .grid__item p {
   margin-bottom: 5px;
 }
+
+@media (max-width:1000px) {
+  .article__grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media(max-width:530px) {
+  .article__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .article__grid .grid__text {
+    padding: 30px;
+  }
+}
+
+@media(max-width:600px) {
+  .item__img img {
+    height: 200px;
+  }
+}
