@@ -2,6 +2,7 @@
 @import "intro.css";
 @import "bank-info.css";
 @import "articles.css";
+@import "footer.css";
 
 * {
   margin: 0;

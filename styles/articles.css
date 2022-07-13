@@ -1,5 +1,5 @@
 .articles-bg {
-  padding: 100px 20px 0px 20px;
+  padding: 100px 20px 100px 20px;
   background-color: #fafafa;
 }
 
@@ -60,6 +60,11 @@
 @media(max-width:530px) {
   .article__grid {
     grid-template-columns: 1fr;
+    text-align: left;
+  }
+
+  .articles-bg h1 {
+    text-align: center;
   }
 
   .article__grid .grid__text {
