@@ -8,7 +8,6 @@ function abrirMenu(event) {
   if (!menu.classList.contains("open")) {
     menuButtonIcon.src = "./img/icon-hamburger.svg";
   } else {
-    console.log("n tem");
     menuButtonIcon.src = "./img/icon-close.svg";
   }
 }
